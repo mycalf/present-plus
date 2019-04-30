@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>{{.Title}}</title>
+    <link type="text/css" rel="stylesheet" href="/static/dir.css">
+    {{range $i, $s := .Stylesheets}}
+    <link rel="stylesheet" type="text/css" href="{{$s}}">
+    {{end}}
+    <script src="/static/dir.js"></script>
+  </head>
+  <body>
+
+  <div id="topbar">
+    <div class="container">
+      <div id="heading"><a href="/">{{.Title}}</a></div>
+    </div>
+  </div>
+
+  <div id="page">
+
+    {{with .Path}}<h2>{{.}}</h2>{{end}}
+
+    {{with .Articles}}
+    <h1>文章:</h1>
+    <dl>
+    {{range .}}
+    <dd>
+      {{if .ShowFileName}}
+      <a href="/{{.Path}}">{{.Name}}</a>: {{.Title}}
+      {{else}}
+      <a href="/{{.Path}}">{{.Title}}</a>
+      {{end}}
+    </dd>
+    {{end}}
+    </dl>
+    {{end}}
+
+    {{with .Slides}}
+    <h4>课程:</h4>
+    <dl>
+    {{range .}}
+    <dd>
+      {{if .ShowFileName}}
+      <a href="/{{.Path}}">{{.Name}}</a>: {{.Title}}
+      {{else}}
+      <a href="/{{.Path}}">{{.Title}}</a>
+      {{end}}
+    </dd>
+    {{end}}
+    </dl>
+    {{end}}
+
+    {{with .Other}}
+    <h4>文件:</h4>
+    <dl>
+    {{range .}}
+    <dd><a href="/{{.Path}}">{{.Name}}</a></dd>
+    {{end}}
+    </dl>
+    {{end}}
+
+    {{with .Dirs}}
+    <h4>子目录:</h4>
+    <dl>
+    {{range .}}
+    <dd><a href="/{{.Path}}">{{.Name}}</a></dd>
+    {{end}}
+    </dl>
+    {{end}}
+
+  </div>
+
+
+  </body>
+</html>
