@@ -2,7 +2,7 @@
 
 Present-Plus is a fork of the Go Present tool (golang.org/x/tools/cmd/present) that adds new features such as themes. Since the additional features provided by Present-Plus are implemented within comments, your .slide and .article files remain completely compatible with Go Present.
 
-If you're looking for themes, check out the [Present-Plus-Themes](https://github.com/davelaursen/present-plus-themes) repo.
+If you're looking for themes, check out the [Present-Plus-Themes](https://github.com/mycalf/present-plus-themes) repo.
 
 To see an online example of Present-Plus in action with a custom theme applied, check out [BrieBug Solution's presentations site](http://presentations.briebugconsulting.com/).
 
@@ -10,7 +10,7 @@ To see an online example of Present-Plus in action with a custom theme applied, 
 
 Present-Plus is currently a beta product. Please submit any issues that you find so that they can be addressed before the 1.0 Release.
 
-See the [1.0 Release](https://github.com/davelaursen/present-plus/milestones) milestone in the [Issues](https://github.com/davelaursen/present-plus/issues) section to see remaining items and the targeted 1.0 release date.
+See the [1.0 Release](https://github.com/mycalf/present-plus/milestones) milestone in the [Issues](https://github.com/mycalf/present-plus/issues) section to see remaining items and the targeted 1.0 release date.
 
 ## Installation
 
@@ -18,7 +18,7 @@ Make sure you have a working Go environment. [See the install instructions](http
 
 To install (or update) Present-Plus, simply run:
 ```
-$ go get -u github.com/davelaursen/present-plus
+$ go get -u github.com/mycalf/present-plus
 ```
 
 Make sure your GOPATH environment variable is set and your PATH includes the `$GOPATH/bin` directory so Present-Plus can easily be run.
@@ -29,7 +29,7 @@ To learn how to create Go Present files, [check out the official documentation](
 
 To learn how to create custom themes and take advantage of what Present-Plus has to offer, start Present-Plus from the examples directory and navigate to `localhost:4999` in your browser:
 
-    $ cd $GOPATH/src/github.com/davelaursen/present-plus/examples
+    $ cd $GOPATH/src/github.com/mycalf/present-plus/examples
     $ present-plus
 
 The sample slide decks provide details on how to use Present-Plus and create custom themes.
@@ -46,7 +46,7 @@ Present-Plus includes the ability to tweak how your presentations are rendered. 
 
 #### Share Your Style
 
-Share your creations! If a theme is accessible on GitHub, then it can be downloaded and installed using the 'install' command. And while Present-Plus only has two built-in themes ('white' and black'), the [Present-Plus-Themes](https://github.com/davelaursen/present-plus-themes) repo will continue to grow with new themes that you can install and use.
+Share your creations! If a theme is accessible on GitHub, then it can be downloaded and installed using the 'install' command. And while Present-Plus only has two built-in themes ('white' and black'), the [Present-Plus-Themes](https://github.com/mycalf/present-plus-themes) repo will continue to grow with new themes that you can install and use.
 
 For more details, see the Getting Started section to view a detailed presentation on Present-Plus's features.
 

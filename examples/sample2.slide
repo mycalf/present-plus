@@ -6,8 +6,8 @@ Using Present-Plus
 
 Dave Laursen
 Gopher
-@davelaursen
-http://github.com/davelaursen
+@mycalf
+http://github.com/mycalf
 
 * Fully Present-Compatible
 
@@ -23,7 +23,7 @@ Present-Plus comes with two simple themes out of the box: 'black' and 'white'.
 
 Additional themes can be installed on the command line from GitHub repos using the 'install' command:
 
-    present-plus install github.com/davelaursen/present-plus-themes/blue
+    present-plus install github.com/mycalf/present-plus-themes/blue
 
 To remove a theme, use the 'uninstall' command:
 

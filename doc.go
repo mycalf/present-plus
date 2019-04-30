@@ -27,6 +27,6 @@ the generated output. The supported formats are:
 	.article      // article format, such as a blog post
 
 The present file format is documented by the present package:
-http://github.com/davelaursen/present-plus/present
+http://github.com/mycalf/present-plus/present
 */
-package main // import "github.com/davelaursen/present-plus"
+package main // import "github.com/mycalf/present-plus"
