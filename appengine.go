@@ -9,7 +9,7 @@ package main
 import (
 	"mime"
 
-	"github.com/davelaursen/present-plus/present"
+	"github.com/mycalf/present-plus/present"
 
 	_ "golang.org/x/tools/playground"
 )

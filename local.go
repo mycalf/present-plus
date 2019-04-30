@@ -21,11 +21,11 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/davelaursen/present-plus/present"
+	"github.com/mycalf/present-plus/present"
 	"golang.org/x/tools/playground/socket"
 )
 
-const basePkg = "github.com/davelaursen/present-plus"
+const basePkg = "github.com/mycalf/present-plus"
 
 var basePath string
 var repoPath string
